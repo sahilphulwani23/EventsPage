@@ -53,7 +53,7 @@ const SingleEvent = ({ data }) => {
         />
         <button type="submit"> Submit</button>
       </form>
-      <p>{message}</p>
+      <p className='message'>{message}</p>
     </div>
   );
 };
